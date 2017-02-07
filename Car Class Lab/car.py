@@ -22,7 +22,6 @@ class Car(object):
         return False
 
     def drive(self, moving_speed):
-        # .drive class
         if moving_speed == 7:
             self.speed = 77
         elif moving_speed == 3:
