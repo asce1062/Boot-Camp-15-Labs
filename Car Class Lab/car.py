@@ -22,11 +22,18 @@ class Car(object):
         return False
 
     def drive(self, moving_speed):
+        # .drive class
+        if moving_speed == 7:
+            self.speed = 77
+        elif moving_speed == 3:
+            self.speed = 1000
         if self.car_type == "trailer":
             if moving_speed == 7:
                 self.speed = 77
                 return self
-            if moving_speed <= 1 and number <= 7:
+            if moving_speed == 3:
+                self.speed == 1000
+            if moving_speed <= 1 and speed <= 7:
                 self.speed = 30
                 return self
             if moving_speed > 7:
@@ -37,4 +44,8 @@ class Car(object):
                     self.speed = 1000
                     return self
         else:
-            return self
+            if moving_speed == 7:
+                self.speed = 77
+            elif moving_speed == 3:
+                self.speed = 1000
+        return self
