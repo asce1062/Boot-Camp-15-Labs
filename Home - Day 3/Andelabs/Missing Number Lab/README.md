@@ -1,5 +1,5 @@
 # Andelabs
-**Word Count (Programming Logic)**
+**Missing Number Lab (Programming Logic)**
 
 You are presented with two arrays, all containing positive integers. One of the arrays will have one extra number, see below:
 
