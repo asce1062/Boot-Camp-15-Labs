@@ -26,5 +26,4 @@ class Student(Person):
     def assign_teaching(self, course):
         self.courses_taught.append(course)
 
-Alex = Student(Student.POSTGRADUATE, "Alex", "Ngugi", "BIT-035-145/2012")
-Alex.enrol(a_postgrad_course)
+alex = Student(Student.POSTGRADUATE, "Alex", "Ngugi", "BIT-035-145/2012")
